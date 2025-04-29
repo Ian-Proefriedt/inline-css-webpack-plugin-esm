@@ -1,5 +1,6 @@
 import HTMLWebpackPlugin from 'html-webpack-plugin';
-import { PluginForHtmlWebpackPluginV3, PluginForHtmlWebpackPluginV4 } from './utils.js';
+import { PluginForHtmlWebpackPluginV3 } from './v3.js';
+import { PluginForHtmlWebpackPluginV4 } from './v4.js';
 
 const isHTMLWebpackPluginV4 = 'getHooks' in HTMLWebpackPlugin;
 
