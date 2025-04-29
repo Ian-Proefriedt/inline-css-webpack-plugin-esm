@@ -1,0 +1,10 @@
+{
+  "name": "inline-css-webpack-plugin-esm",
+  "version": "1.0.0",
+  "description": "Custom ESM-patched version of inline CSS plugin for Webpack",
+  "type": "module",
+  "main": "index.js",
+  "author": "Ian Proefriedt",
+  "license": "MIT",
+  "dependencies": {}
+}
