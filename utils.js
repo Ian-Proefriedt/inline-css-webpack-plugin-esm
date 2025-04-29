@@ -1,6 +1,5 @@
-import { escapeRegExp } from 'lodash';
-
-export { escapeRegExp };
+import lodash from 'lodash';
+export const escapeRegExp = lodash.escapeRegExp;
 
 export function is(filenameExtension) {
     const reg = new RegExp(`.${filenameExtension}$`);
