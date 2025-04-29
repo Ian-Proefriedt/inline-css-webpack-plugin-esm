@@ -1,4 +1,4 @@
-import { TAP_KEY_PREFIX } from '../types.js';
+import { TAP_KEY_PREFIX } from './types.js';
 import { BasePlugin } from './base-plugin.js';
 
 export class PluginForHtmlWebpackPluginV3 extends BasePlugin {
